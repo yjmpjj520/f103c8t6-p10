@@ -1,0 +1,133 @@
+T0C48 000:187.951   SEGGER J-Link V6.96 Log File
+T0C48 000:188.230   DLL Compiled: Feb 19 2021 09:55:51
+T0C48 000:188.292   Logging started @ 2021-07-20 06:57
+T0C48 000:188.350 - 188.379ms
+T0C48 000:188.425 JLINK_SetWarnOutHandler(...)
+T0C48 000:188.486 - 0.089ms
+T0C48 000:188.546 JLINK_OpenEx(...)
+T0C48 000:192.448   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T0C48 000:193.441   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T0C48 000:193.739   Decompressing FW timestamp took 175 us
+T0C48 000:210.888   Hardware: V1.00
+T0C48 000:211.022   S/N: 4294967295
+T0C48 000:211.097   OEM: SEGGER
+T0C48 000:211.170   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T0C48 000:214.997   TELNET listener socket opened on port 19021
+T0C48 000:215.289   WEBSRV Starting webserver
+T0C48 000:215.589   WEBSRV Webserver running on local port 19080
+T0C48 000:215.622 - 27.083ms returns "O.K."
+T0C48 000:215.693 JLINK_GetEmuCaps()
+T0C48 000:215.713 - 0.039ms returns 0xB8EA5A33
+T0C48 000:215.734 JLINK_TIF_GetAvailable(...)
+T0C48 000:216.003 - 0.288ms
+T0C48 000:216.035 JLINK_SetErrorOutHandler(...)
+T0C48 000:216.049 - 0.020ms
+T0C48 000:216.093 JLINK_ExecCommand("ProjectFile = "C:\Users\JH\Desktop\HK32F030MF4P6\Ö÷»ú\USER\JLinkSettings.ini"", ...). 
+T0C48 000:235.452   Ref file found at: D:\BaiduNetdiskDownload\keil5\ARM\Segger\JLinkDevices.ref
+T0C48 000:235.956   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T0C48 000:237.536   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T0C48 000:673.542 - 457.471ms returns 0x00
+T0C48 000:673.635 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T0C48 000:731.174   Device "STM32F103C8" selected.
+T0C48 000:732.851 - 59.224ms returns 0x00
+T0C48 000:732.986 JLINK_GetHardwareVersion()
+T0C48 000:733.011 - 0.037ms returns 10000
+T0C48 000:733.047 JLINK_GetDLLVersion()
+T0C48 000:733.069 - 0.033ms returns 69600
+T0C48 000:733.095 JLINK_GetOEMString(...)
+T0C48 000:733.121 JLINK_GetFirmwareString(...)
+T0C48 000:733.144 - 0.033ms
+T0C48 000:733.180 JLINK_GetDLLVersion()
+T0C48 000:733.203 - 0.033ms returns 69600
+T0C48 000:733.228 JLINK_GetCompileDateTime()
+T0C48 000:733.249 - 0.032ms
+T0C48 000:733.279 JLINK_GetFirmwareString(...)
+T0C48 000:733.301 - 0.033ms
+T0C48 000:733.327 JLINK_GetHardwareVersion()
+T0C48 000:733.349 - 0.032ms returns 10000
+T0C48 000:733.376 JLINK_GetSN()
+T0C48 000:733.400 - 0.035ms returns -1
+T0C48 000:733.425 JLINK_GetOEMString(...)
+T0C48 002:479.410 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T0C48 002:480.469   
+  ***** Error: 
+T0C48 002:480.502   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T0C48 002:480.520 - 1.117ms returns 0x01
+T0C48 002:480.548 JLINK_HasError()
+T0C48 002:480.593 JLINK_SetSpeed(5000)
+T0C48 002:480.612 - 0.026ms
+T0C48 002:481.080 JLINK_HasError()
+T0C48 002:481.100 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0C48 002:481.114 - 0.019ms returns JLINKARM_RESET_TYPE_NORMAL
+T0C48 002:481.127 JLINK_Reset()
+T0C48 002:552.035   Found SW-DP with ID 0x0BB11477
+T0C48 002:616.098   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T0C48 002:668.572   Found SW-DP with ID 0x0BB11477
+T0C48 002:767.135   Looking for J-Link GUI Server exe at: D:\BaiduNetdiskDownload\keil5\ARM\Segger\JLinkGUIServer.exe
+T0C48 002:767.990   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T0C48 002:768.479   Forking J-Link GUI Server: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T0C48 003:243.574   J-Link GUI Server info: "J-Link GUI server V6.96 "
+T0C48 007:450.238   Device will be unsecured now.
+T0C48 007:504.258   Found SW-DP with ID 0x0BB11477
+T0C48 007:582.778   Found SW-DP with ID 0x0BB11477
+T0C48 007:587.296   Old FW that does not support reading DPIDR via DAP jobs
+T0C48 007:588.853   DPv0 detected
+T0C48 007:588.918   Scanning AP map to find all available APs
+T0C48 007:590.273   AP[1]: Stopped AP scan as end of AP map has been reached
+T0C48 007:590.456   AP[0]: AHB-AP (IDR: 0x04770021)
+T0C48 007:590.492   Iterating through AP map to find AHB-AP to use
+T0C48 007:592.303   AP[0]: Core found
+T0C48 007:592.345   AP[0]: AHB-AP ROM base: 0xE00FF000
+T0C48 007:593.283   CPUID register: 0x410CC200. Implementer code: 0x41 (ARM)
+T0C48 007:593.321   Found Cortex-M0 r0p0, Little endian.
+T0C48 007:732.833   Identified core does not match configuration. (Found: Cortex-M0, Configured: Cortex-M3)
+T0C48 007:733.721   -- Max. mem block: 0x00002340
+T0C48 007:733.975   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C48 007:734.727   CPU_ReadMem(4 bytes @ 0xE0002000)
+T0C48 007:735.306   FPUnit: 4 code (BP) slots and 0 literal slots
+T0C48 007:735.343   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C48 007:735.884   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C48 007:736.811   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C48 007:737.750   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C48 007:738.726   CoreSight components:
+T0C48 007:738.763   ROMTbl[0] @ E00FF000
+T0C48 007:738.798   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T0C48 007:740.301   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T0C48 007:741.338   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB008 SCS
+T0C48 007:741.385   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T0C48 007:742.329   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 000BB00A DWT
+T0C48 007:742.368   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T0C48 007:743.327   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB00B FPB
+T0C48 007:743.490   CPU is running
+T0C48 007:743.528   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C48 007:744.303   CPU is running
+T0C48 007:744.340   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C48 007:744.890   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T0C48 007:745.776   Reset: Reset device via AIRCR.SYSRESETREQ.
+T0C48 007:745.815   CPU is running
+T0C48 007:745.849   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T0C48 007:799.326   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C48 007:799.899   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C48 007:800.791   CPU is running
+T0C48 007:800.829   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C48 007:801.788   CPU is running
+T0C48 007:801.827   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C48 007:808.436   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C48 007:814.364   CPU_WriteMem(4 bytes @ 0xE0002000)
+T0C48 007:815.323   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C48 007:816.335   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C48 007:816.903   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C48 007:817.751 - 5336.640ms
+T0C48 007:817.792 JLINK_GetId()
+T0C48 007:818.322 - 0.545ms returns 0x0BB11477
+T0C48 007:831.143 JLINK_GetFirmwareString(...)
+T0C48 007:831.200 - 0.068ms
+T0C48 014:664.948 JLINK_Close()
+T0C48 014:665.536   CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C48 014:666.596   CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C48 014:667.488   CPU_WriteMem(4 bytes @ 0xE0001004)
+T0C48 014:684.392 - 19.478ms
+T0C48 014:684.434   
+T0C48 014:684.449   Closed
